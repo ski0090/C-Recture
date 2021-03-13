@@ -3,5 +3,6 @@
   <ItemGroup>
     <ClCompile Include="Hexadecimal.cpp" />
     <ClCompile Include="conditional.cpp" />
+    <ClCompile Include="소스.cpp" />
   </ItemGroup>
 </Project>
