@@ -86,6 +86,9 @@ int main()
 			  {
 				 cout << "ÀÜµ·Àº" << Money << "¿ø ¸¸Å­ ³²À¸¼Ì½À´Ï´Ù." << endl;
 				 cout << "ÀÜµ· ¹İÈ¯ÇØ µå¸®°Ú½À´Ï´Ù." << endl;
+				 Money = 0;
+				 system("pause");
+				 system("cls");
 				 break;
 			  }
 			 default:
