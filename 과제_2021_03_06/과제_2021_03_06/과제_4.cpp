@@ -19,13 +19,13 @@ int main()
 
 	system("cls");
 
-	if ((Aver >= 90) && (Aver <= 100))
+	if ((Aver >= 90.f) && (Aver <= 100.f))
 		Grade = 'A';
-	else if ((Aver >= 80) && (Aver < 90))
+	else if (Aver >= 80.f)
 		Grade = 'B';
-	else if ((Aver >= 70) && (Aver < 80))
+	else if (Aver >= 70.f)
 		Grade = 'C';
-	else if ((Aver >= 60) && (Aver < 70))
+	else if (Aver >= 60.f)
 		Grade = 'D';
 	else Grade = 'F';
 
